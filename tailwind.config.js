@@ -1,14 +1,10 @@
-{
-  "dependencies": {
-    "@supabase/supabase-js": "^2.39.0",
-    "@heroicons/react": "^2.0.18",
-    "next": "14.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {},
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5"
-  }
-}
+  plugins: [],
+};
